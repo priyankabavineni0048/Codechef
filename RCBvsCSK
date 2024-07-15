@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ip = new Scanner(System.in);
+        
+        int X = ip.nextInt();
+        int Y = ip.nextInt();
+        
+        if (X - Y >= 18) {
+            System.out.println("RCB");
+        } else {
+            System.out.println("CSK");
+        }
+
+	}
+}
