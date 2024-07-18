@@ -1,0 +1,18 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ip = new Scanner(System.in);
+        int T = ip.nextInt(); 
+        for (int t = 0; t < T; t++) {
+            int X = ip.nextInt(); 
+            int Y = ip.nextInt(); 
+            int totalPrizeMoney = (10 * X) + (90 * Y);
+            System.out.println(totalPrizeMoney);
+        }
+	}
+}
