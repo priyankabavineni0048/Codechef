@@ -1,0 +1,29 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ip = new Scanner(System.in);
+        int n = ip.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            int a = ip.nextInt();
+            int b = ip.nextInt();
+            int c = ip.nextInt();
+            int res;
+            if ((a > b && a < c) || (a < b && a > c)) {
+                res = a;
+            } 
+            else if ((b > a && b < c) || (b < a && b > c)) {
+                res = b;
+            } 
+            else {
+                res = c;
+            }
+            System.out.println(res);
+        }
+	}
+}
