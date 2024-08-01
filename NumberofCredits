@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ip=new Scanner(System.in);
+		int t=ip.nextInt();
+		while(t-->0){
+		    int a=ip.nextInt();
+		    int b=ip.nextInt();
+		    int c=ip.nextInt();
+		    int res = a*4 + b*2 + c*0;
+		    System.out.println(res);
+		}
+
+	}
+}
