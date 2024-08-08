@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner ip = new Scanner(System.in);
+        int G = ip.nextInt();
+        int S = ip.nextInt();
+        int B = ip.nextInt();
+        int requiredMedals = 5;
+        int additionalGold = Math.max(0, requiredMedals - G);
+        int additionalSilver = Math.max(0, requiredMedals - S);
+        int additionalBronze = Math.max(0, requiredMedals - B);
+        int totalAdditionalMedals = additionalGold + additionalSilver + additionalBronze;
+        System.out.println(totalAdditionalMedals);
+
+	}
+}
