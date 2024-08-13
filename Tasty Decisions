@@ -1,0 +1,30 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner sc = new Scanner(System.in);
+
+        int T = sc.nextInt();  // Number of test cases
+
+        for (int i = 0; i < T; i++) {
+            int X = sc.nextInt();  // Tastiness of one bar of chocolate
+            int Y = sc.nextInt();  // Tastiness of one piece of candy
+
+            int A = 2 * X;  // Tastiness of a packet of chocolate
+            int B = 5 * Y;      // Tastiness of a packet of candy
+
+            if (A > B) {
+                System.out.println("Chocolate");
+            } else if (B > A) {
+                System.out.println("Candy");
+            } else {
+                System.out.println("Either");
+            }
+        }
+	}
+}
