@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner ip = new Scanner(System.in);
+        int T = ip.nextInt();  
+        for (int i = 0; i < T; i++) {
+            int A = ip.nextInt();  
+            int B = ip.nextInt();  
+            if ((A + B) % 2 == 0) {
+                System.out.println("YES");
+            } else {
+                System.out.println("NO");
+            }
+        }
+
+	}
+}
