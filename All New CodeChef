@@ -1,0 +1,24 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner ip = new Scanner(System.in);
+		int x=ip.nextInt();
+		int y=ip.nextInt();
+		if(x>y){
+		    System.out.println("New");
+		}
+		else if (x<y){
+		    System.out.println("Old");
+		}
+		else{
+		    System.out.println("Same");
+		}
+
+	}
+}
