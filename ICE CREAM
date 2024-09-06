@@ -1,0 +1,22 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		Scanner ip = new Scanner(System.in);
+		int a=ip.nextInt();
+		int b=ip.nextInt();
+		int cost = 2 * a;
+		if(b>=cost){
+		    System.out.println("YES");
+		}
+		else{
+		    System.out.println("NO");
+		}
+
+	}
+}
